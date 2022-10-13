@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+char v;
+scanf("%c",&v);
+switch(v)
+{
+case'A':
+case'a':puts("a");break;
+case'E':
+case'e':puts("e");break;
+case'I':
+case'i':puts("i");break;
+case'O':
+case'o':puts("o");break;
+case'U':
+case'u':puts("u");break;
+default:puts("not a vowel");
+}
+getch();
+}
+

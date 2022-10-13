@@ -1,0 +1,16 @@
+ #include <stdio.h>
+ #include <conio.h>
+ void main()
+ {
+ int n=1,i=1,t,x;
+ clrscr();
+ while(i<=100,i%2==0)
+ {
+ t=n*i ;
+ printf("%d\t",t);
+ i++;
+ }
+ x=t;
+ printf("x=%d\n",x);
+ getch();
+ }

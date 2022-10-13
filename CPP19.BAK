@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int n,i=1,t;
+scanf("%d",&n);
+while(i<=10)
+{t=n*i;
+printf("%d\n",t);
+i++;
+}
+getch();
+}
